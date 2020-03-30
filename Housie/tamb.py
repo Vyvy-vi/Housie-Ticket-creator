@@ -38,6 +38,7 @@ def num_gen(ls):
     else:
         num_gen(ls)
 
+nt= 12       
 nt= int(input('Enter no. of tickets to be created:'))
 for tnum in range(nt):
     ticket(tnum)
