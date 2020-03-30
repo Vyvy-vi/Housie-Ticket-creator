@@ -18,7 +18,8 @@ def ticket(tnum):
             else:
                 continue
     print('Created Ticket#',tnum)
-    image.save(f'ticket#{tnum}.png')
+    prnt='ticket#'+str(tnum)+'.png'  
+    image.save(prnt)
 def num_gen(ls):
     k=random.randint(1,100)
     if k not in ls:
