@@ -17,7 +17,7 @@ def ticket(tnum):
                 draw.text((20+ 31.5*(j), 20+ (31*(tam.index(i)))), str(i[j]), fill=color, font=font)
             else:
                 continue
-    print(f'Created Ticket#{tnum}')
+    print('Created Ticket#',tnum)
     image.save(f'ticket#{tnum}.png')
 def num_gen(ls):
     k=random.randint(1,100)
