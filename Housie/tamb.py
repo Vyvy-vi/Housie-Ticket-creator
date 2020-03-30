@@ -39,7 +39,7 @@ def num_gen(ls):
         num_gen(ls)
 
 nt= 12       
-nt= int(input('Enter no. of tickets to be created:'))
+"""nt= int(input('Enter no. of tickets to be created:'))""" #uncommnet this to make tickets according to wanted amount.
 for tnum in range(nt):
     ticket(tnum)
 
